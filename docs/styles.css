@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	background-color: #000000;
+}
+
+.nav ul {
+	margin: 0;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 0.5em;
+	color: white;
+	text-decoration: none;
+}
+
+.main-nav {
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: celeftnter;
+	font-size: 1.1em;
+	font-weight: lighter;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+	padding: 0 5%;
+}
+
+.nav .nav-item a:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.content-section {
+	margin: 1em;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.profiel_picture {
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+}
+
+.inroduction {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.section_heading {
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.work-title {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+.work-company {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+.work-description {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+.work-duration {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.jump {
+	margin-top: 5px;
+}
+
+.jump .jump-heading {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.main-footer {
+	color: white;
+	text-align: left;
+}
+
+.section_heading {
+	margin-top: 2em;
+	margin-bottom: 0em;
+	font-weight: bold;
+}
+
+/* This is a single-line comment */
+
+.collapsible {
+	background-color: rgb(20, 20, 20);
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+	background-color: #232323;
+}
+
+.collapsible:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: '\2212';
+}
+
+.content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: black;
+	margin-bottom: 50px;
+}
+
+/* This is a single-line comment */
+
+.main-footer {
+	color: white;
+	padding: 0.25em 0;
+}
+
+.footer-nav li {
+	padding: 0 0.5em;
+}
