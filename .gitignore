@@ -1,0 +1,55 @@
+# General OS and editor files
+.DS_Store
+Thumbs.db
+.localized
+.fseventsd
+._*
+.Spotlight-V100
+.Trashes
+
+# Node.js and npm
+node_modules
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+
+# Build artifacts (common for web projects)
+build
+dist
+out
+.parcel-cache
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+
+# Log files
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.sln
+*.userprefs
+
+# Temporary files
+*~
+*.swp
+
+# GitHub Pages specific (if you have a Jekyll setup in the root)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Add your specific folders and files below this line:
+# Example:
+# my-secret-folder/
+# data.csv
+# config.js
+testing/

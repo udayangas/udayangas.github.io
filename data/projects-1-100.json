@@ -1,0 +1,12 @@
+[
+	{
+		"id": 1,
+		"title": "Under Construction",
+		"imageUrl": "/img/under-construction.jpg",
+		"description": "This section will be avilable soon",
+		"lastUpdated": "TBA",
+		"projectLink": "/",
+		"githubLink": "#",
+		"display": "active"
+	}
+]
