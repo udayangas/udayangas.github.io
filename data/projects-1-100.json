@@ -1,12 +1,12 @@
 [
 	{
 		"id": 1,
-		"title": "Under Construction",
-		"imageUrl": "/img/under-construction.jpg",
-		"description": "This section will be avilable soon",
-		"lastUpdated": "TBA",
-		"projectLink": "/",
-		"githubLink": "#",
+		"title": "Hexagon Calculator",
+		"imageUrl": "https://raw.githubusercontent.com/udayangas/hexagon-calculator/refs/heads/main/python-app/Screenshot.png",
+		"description": "The Hexagon Calculator allows users to input any known measurement of a regular hexagon (such as side length, diagonals, area, or perimeter) and instantly calculates all other related properties. It's designed to be user-friendly and visually appealing across different platforms.",
+		"lastUpdated": "23-05-2025",
+		"projectLink": "https://udayanga.net/hexagon-calculator/",
+		"githubLink": "https://github.com/udayangas/hexagon-calculator.git",
 		"display": "active"
 	}
 ]
